@@ -178,6 +178,18 @@ body {
   display: none;
 }
 
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.formulario input,
+.formulario button {
+  margin-bottom: 10px;
+}
+
 /* Reset CSS */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
